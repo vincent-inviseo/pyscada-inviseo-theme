@@ -1,0 +1,121 @@
+{% extends "base.html" %}
+{% load i18n static %}
+{% block body_confic_data %}style="padding:0;"{% endblock %}
+{% block wrap_config %}class="wrapper"{% endblock %}
+{% block navbar %}
+    <!-- Side bar -->
+    <nav id="sidebar">
+        <div class="sidebar-header">
+            {% block sidebar_logo %}
+                <h3>LESITE</h3>
+                <strong style="font-size:inherit;">LESITE</strong>
+            {% endblock %}
+            {% block navbar_logo %}{% endblock %}
+        </div>
+        <ul class="list-unstyled components navbar-nav">
+            {% block top_menu_left %}{% endblock %}
+            {% block top_menu_left_collapsed %}{% endblock %}
+        </ul>
+        <ul class="list-unstyled CTAs">
+        </ul>
+        {% block sidebar_sites %}
+            {% include "sidebar_sites.html" %}
+        {% endblock %}
+    </nav>
+    <!-- Top bar -->
+    <nav id="navbar-top"
+         class="topbar sidebarActive navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <button type="button" id="sidebarCollapse2" class="sidebarCollapse">
+                <span class="icon-bar"
+                      style="display: block;
+                             width: 22px;
+                             height: 2px;
+                             border-radius: 1px;
+                             background-color: #FFF"></span>
+                <span class="icon-bar"
+                      style="display: block;
+                             width: 22px;
+                             height: 2px;
+                             border-radius: 1px;
+                             background-color: #FFF;
+                             margin-top: 4px"></span>
+                <span class="icon-bar"
+                      style="display: block;
+                             width: 22px;
+                             height: 2px;
+                             border-radius: 1px;
+                             background-color: #FFF;
+                             margin-top: 4px"></span>
+            </button>
+            <button type="button"
+                    class="navbar-toggle topBarCollapse"
+                    data-toggle="collapse"
+                    data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="nav navbar-right navbar-nav">
+                    {% block top_menu_right %}{% endblock %}
+                    <!--<li><a href="#page-help">Help</a></li>-->
+                    <li>
+                        <a href="javascript:;"
+                           style="padding-left:0px;
+                                  padding-top: 0px;
+                                  padding-right:0px;
+                                  width:40px;
+                                  height:30px;
+                                  display: none">
+                            <img class="loadingAnimation"
+                                 style="display: inline-block;
+                                        height: 14px"
+                                 src="/static/pyscada/img/load.gif"
+                                 alt="loading"
+                                 data-toggle="tooltip"
+                                 data-placement="bottom"
+                                 title=""
+                                 data-original-title="Initialisation">
+                        </a>
+                    </li>
+                    <li class="AutoUpdateButtonParent"
+                        style="width:100px;
+                               height:30px;
+                               padding-top: 0px;
+                               margin-right:-25px;
+                               display: none">
+                        <input class="AutoUpdateButton hidden"
+                               type="checkbox"
+                               data-inverse="true"
+                               data-size="mini"
+                               data-on-color="success"
+                               data-off-color="default"
+                               checked>
+                    </li>
+                    <li style="width:40px;height:30px;padding-top: 0px;display: none;">
+                        <a href="javascript:;">
+                            <span class="ReadAllTask glyphicon glyphicon-refresh"
+                                  data-toggle="tooltip"
+                                  data-placement="bottom"
+                                  title=""
+                                  data-original-title="Send request data to all devices"></span>
+                        </a>
+                    </li>
+                    <li style="width:40px;height:40px;padding-top: 0px;display: none;">
+                        <a href="javascript:;">
+                            <span class="AutoUpdateStatus glyphicon glyphicon-transfer"
+                                  data-toggle="tooltip"
+                                  data-placement="bottom"
+                                  title=""
+                                  data-original-title="Data transfer"></span>
+                        </a>
+                    </li>
+                    {% block user_dropdown %}
+                        {% include "user_dropdown.html" %}
+                    {% endblock %}
+                </ul>
+            </div>
+        </div>
+    </nav>
+{% endblock %}

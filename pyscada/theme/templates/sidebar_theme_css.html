@@ -1,0 +1,3 @@
+{% load static %}
+<link href='{% static "pyscada/css/theme/theme.css" %}' rel="stylesheet" />
+{% for css_file in css_files_list %}<link href={{ css_file.src }} rel="stylesheet" />{% endfor %}

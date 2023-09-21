@@ -1,0 +1,5 @@
+*.pyc
+/pyscada_*.egg-info/*
+/.idea/*
+/dist/*
+/build/*
