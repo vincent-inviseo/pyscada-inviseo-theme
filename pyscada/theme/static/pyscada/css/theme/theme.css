@@ -1,3 +1,5 @@
+@import url('https://ektype.in/font-family/baloo/baloo2.html');
+
 :root {
   --couleur_sidebarBG: #4C0BC6;
   --couleur_sidebarBGFocus: #b8e2f6;
@@ -8,11 +10,11 @@
   --couleur_sidebarFontHover: #fff;
   --couleur_sidebarFontActive: #b8e2f6;
 
-  --couleur_navbarBG: #b8e2f6;
+  --couleur_navbarBG: #f3f2fc;
   --couleur_navbarBGFocus: #007ec4;
   --couleur_navbarBGHover: #007ec4;
   --couleur_navbarBGActive: #007ec4;
-  --couleur_navbarFont: #007ec4;
+  --couleur_navbarFont: black;
   --couleur_navbarFontFocus: #009036;
   --couleur_navbarFontHover: #009036;
   --couleur_navbarFontActive: #009036;
@@ -26,6 +28,8 @@
   --couleur_dropdownFontHover: #009036;
   --couleur_dropdownFontActive: #009036;
 
+  --glyphicon-color: gray;
+
   --couleur_panelBG: #fffaf0;
   --couleur_panelFont: #007ec4;
   --couleur_panelTitle: #007ec4;
@@ -34,8 +38,13 @@
 
   --couleurSubpageBG: #f3f2fc;
   --couleurFooterBG: #f3f2fc;
-  /* https://ektype.in/font-family/baloo/baloo2.html */
-  /* --font: Roboto; */
+  --font: 'Baloo 2', sans-serif;
+  --font-main-color: #162d3d;
+
+  /* SIZE */
+  --graphic-title-font-size: 20px;
+  --daterange-picker-font-size: 12px;
+
 }
 
 .panel-body {
@@ -94,12 +103,14 @@
 }
 
 body {
-  font-family: var(--font, robotoregular);
+  font-family: var(--font);
+  color: var(--font-main-color);
   padding-top: 0;
 }
 
 p {
-  font-family: var(--font, robotoregular);
+  font-family: var(--font);
+  color: var(--font-main-color);
   font-weight: 300;
   color: var(--couleurfont_p);
 }
@@ -139,11 +150,11 @@ h1,
   color: var(--couleur_panelTitle);
   font-size: 2em;
   font-weight: 500;
-  font-family: var(--font, robotoregular);
+  font-family: var(--font);
+  color: var(--font-main-color);
 }
 
 .navbar {
-  padding: 15px 0px;
   background: var(--couleur_navbarBG);
   color: var(--couleur_navbarFont);
   border: none;
@@ -168,7 +179,7 @@ h1,
 }
 
 .navbar-nav {
-  margin: 8px;
+  margin: 5px;
 }
 
 .line {
@@ -181,20 +192,6 @@ h1,
 i,
 span {
   display: inline-block;
-}
-
-.dropdown-menu {
-  background-color: var(--couleur_dropdownBG) !important;
-}
-
-.dropdown-menu li a {
-  color: var(--couleur_dropdownFont);
-  background-color: var(--couleur_dropdownBG);
-}
-
-.dropdown-menu li span {
-  color: var(--couleur_dropdownFont);
-  background-color: var(--couleur_dropdownBG);
 }
 
 .legendTitle {
@@ -216,10 +213,10 @@ span {
 }
 
 .chartTitle {
-  color: var(--couleur_panelTitle);
+  color: var(--font-main-color);
   font-size: 2em;
   font-weight: 500;
-  font-family: var(--font, robotoregular);
+  font-family: var(--font);
 }
 
 .control-panel,
@@ -228,18 +225,21 @@ span {
 }
 
 .daterangepicker {
-  font-family: var(--font, robotoregular);
+  font-family: var(--font);
+  color: var(--font-main-color);
 }
 
 .chart-container {
-  font-family: var(--font, robotoregular);
+  font-family: var(--font);
+  color: var(--font-main-color);
   border-radius: 8px;
   border: unset;
 }
 
 .legend,
 .legend-sidebar {
-  font-family: var(--font, robotoregular);
+  font-family: var(--font);
+  color: var(--font-main-color);
 }
 
 /* ---------------------------------------------------
@@ -307,6 +307,11 @@ span {
 
 .topBarCollapse {
   background-color: var(--couleur_sidebarBG);
+}
+
+.dropdown {
+  color: gray;
+  font-size: var(--daterange-picker-font-size);
 }
 
 #sidebar {
@@ -488,9 +493,17 @@ a.article:hover {
   transition: all 0.3s;
 }
 
+.glyphicon {
+  color: var(--glyphicon-color);
+}
+
 .footer.sidebarActive {
   padding-left: 255px;
   transition: all 0.3s;
+}
+
+.chart-save-csv, .chart-save-picture, .chart-ResetSelection, .chart-ZoomYToFit, .chart-ZoomXToFit {
+  border: unset;
 }
 
 /* ---------------------------------------------------
