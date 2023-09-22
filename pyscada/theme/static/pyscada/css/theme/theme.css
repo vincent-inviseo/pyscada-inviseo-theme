@@ -12,11 +12,11 @@
 
   --couleur_navbarBG: #f3f2fc;
   --couleur_navbarBGFocus: #007ec4;
-  --couleur_navbarBGHover: #007ec4;
+  --couleur_navbarBGHover: #4c0bc621;
   --couleur_navbarBGActive: #007ec4;
   --couleur_navbarFont: black;
   --couleur_navbarFontFocus: #009036;
-  --couleur_navbarFontHover: #009036;
+  --couleur_navbarFontHover: #4c0bc6e8;
   --couleur_navbarFontActive: #009036;
 
   --couleur_dropdownBG: #007ec4;
@@ -43,14 +43,46 @@
 
   /* SIZE */
   --graphic-title-font-size: 20px;
-  --daterange-picker-font-size: 12px;
+  --daterange-picker-font-size: 16px;
 
 }
 
 #logo-inviseo{
   width: 120px;
+  height: 120px;
+}
+
+.AutoUpdateButtonParent{
+  /* visibility: hidden !important; */
+  display: none !important;
+}
+
+.ReadAllTask{
+  /* visibility: hidden !important; */
+  display: none !important;
+}
+
+.AutoUpdateStatus{
+  /* visibility: hidden !important; */
+  display: none !important;
+}
+
+.container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#daterange:hover{
+  background-color: var(--couleur_navbarBGHover) !important;
+  border-radius: 10px;
+}
+
+
+#daterange:hover, #daterange:hover *, .dropdown-toggle:hover{
+  color: var(--couleur_navbarFontHover);
 
 }
+
 
 .panel-body {
   border-style: solid;
@@ -82,6 +114,14 @@
 
 .navbar {
   background-color: var(--couleur_navbarBG);
+  background: var(--couleur_navbarBG);
+  color: var(--couleur_navbarFont);
+  border: none;
+  border-radius: 0;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .navbar .navbar-toggle span {
@@ -162,17 +202,7 @@ h1,
   font-family: var(--font);
 }
 
-.navbar {
-  background: var(--couleur_navbarBG);
-  color: var(--couleur_navbarFont);
-  border: none;
-  border-radius: 0;
-  margin-bottom: 0px;
-  margin-right: 0px;
-  margin-left: 0px;
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
-  font-size: 16px;
-}
+
 
 .navbar-btn {
   box-shadow: none;
@@ -188,6 +218,10 @@ h1,
 
 .navbar-nav {
   margin: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .line {
@@ -316,9 +350,7 @@ span {
 }
 
 #sidebar {
-  min-width: 190px;
-  max-width: 190px;
-  /* max-width: 250px; */
+  width: 190px;
   background: var(--couleur_sidebarBG);
   color: var(--couleur_sidebarFont);
   transition: all 0.3s;
