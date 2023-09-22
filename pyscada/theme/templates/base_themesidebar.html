@@ -15,12 +15,15 @@
             {% endblock %}
             {% block navbar_logo %}{% endblock %}
         </div>
-        <ul class="list-unstyled CTAs navbar-button-list" id="le-fameux-id">
-            <button class="navbar-button" id="dashboard-button">#</button>
-            <button class="navbar-button" id="insights-button">#</button>
-            <button class="navbar-button" id="ordinateur-button">#</button>
-            <button class="navbar-button" id="documents-button">#</button>
+        <ul class="list-unstyled components navbar-nav">
+            {% block top_menu_left %}{% endblock %}
+            {% block top_menu_left_collapsed %}{% endblock %}
         </ul>
+        <ul class="list-unstyled CTAs">
+        </ul>
+        {% block sidebar_sites %}
+            {% include "sidebar_sites.html" %}
+        {% endblock %}
     </nav>
     <!-- Top bar -->
     <nav id="navbar-top"
