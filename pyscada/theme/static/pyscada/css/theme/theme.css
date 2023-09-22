@@ -2,12 +2,12 @@
 
 :root {
   --couleur_sidebarBG: #4C0BC6;
-  --couleur_sidebarBGFocus: #b8e2f6;
-  --couleur_sidebarBGHover: #b8e2f6;
+  --couleur_sidebarBGFocus: #e4e4f4;
+  --couleur_sidebarBGHover: #e4e4f4;
   --couleur_sidebarBGActive: #fff;
-  --couleur_sidebarFont: #fff;
+  --couleur_sidebarFont: #e4e4f4 ;
   --couleur_sidebarFontFocus: #fff;
-  --couleur_sidebarFontHover: #fff;
+  --couleur_sidebarFontHover: #4C0BC6;
   --couleur_sidebarFontActive: #b8e2f6;
 
   --couleur_navbarBG: #f3f2fc;
@@ -456,13 +456,17 @@ span {
 #sidebar ul li:hover {
   color: var(--couleur_sidebarFontHover);
   background: var(--couleur_sidebarBGHover);
-  border-radius: 8px;
+  border-radius: 10px;
+}
+
+a{
+  border-radius: 10px;
 }
 
 #sidebar ul li a:active {
   color: var(--couleur_sidebarFontHover);
   background: var(--couleur_sidebarBGHover);
-  border-radius: 8px;
+  border-radius: 10px;
 }
 
 #sidebar ul li a i {
