@@ -72,14 +72,18 @@
   padding-right: 0;
 }
 
-#daterange:hover{
+#daterange:hover, .dropdown-user:hover{
   background-color: var(--couleur_navbarBGHover) !important;
   border-radius: 10px;
 }
 
+.dropdown-user {
+  padding-right: 35px;
+}
 
-#daterange:hover, #daterange:hover *, .dropdown-toggle:hover{
-  color: var(--couleur_navbarFontHover);
+
+#daterange:hover, #daterange:hover *, .dropdown-user:hover *, .dropdown-toggle:hover{
+  color: var(--couleur_navbarFontHover) !important;
 
 }
 

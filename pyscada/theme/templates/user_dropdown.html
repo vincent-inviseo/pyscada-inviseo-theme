@@ -1,7 +1,7 @@
 {% if user.pk %}
     <li class="dropdown">
         <!-- User -->
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon  glyphicon-user"></span>
+        <a href="#" class="dropdown-toggle dropdown-user" data-toggle="dropdown"><span class="glyphicon  glyphicon-user"></span>
             {% if user.first_name %}
                 {{ user.first_name }} {{ user.last_name }}
             {% else %}
