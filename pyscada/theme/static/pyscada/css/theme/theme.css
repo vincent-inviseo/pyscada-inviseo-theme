@@ -147,11 +147,10 @@ h1,
 }
 
 .chartTitle {
-  color: var(--couleur_panelTitle);
-  font-size: 2em;
+  color: var(--font-main-color);
+  font-size: var(--graphic-title-font-size);
   font-weight: 500;
   font-family: var(--font);
-  color: var(--font-main-color);
 }
 
 .navbar {
@@ -210,13 +209,6 @@ span {
   padding: 0px 20px;
   /*font-size: 1.5em;*/
   font-weight: 500;
-}
-
-.chartTitle {
-  color: var(--font-main-color);
-  font-size: 2em;
-  font-weight: 500;
-  font-family: var(--font);
 }
 
 .control-panel,
@@ -409,7 +401,7 @@ span {
 
 #sidebar ul li a {
   padding: 10px;
-  font-size: 1.5em;
+  font-size: 16px;
   display: block;
 }
 
