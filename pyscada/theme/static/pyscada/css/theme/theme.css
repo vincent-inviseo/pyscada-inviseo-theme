@@ -78,7 +78,7 @@
 }
 
 .dropdown-user {
-  padding-right: 35px;
+  padding-right: 35px !important;
 }
 
 
@@ -444,7 +444,6 @@ span {
   float: none;
   list-style-type: none;
   margin: 0 10px;
-  width: 100%;
 }
 
 #sidebar ul li a {
@@ -457,6 +456,7 @@ span {
   color: var(--couleur_sidebarFontHover);
   background: var(--couleur_sidebarBGHover);
   border-radius: 10px;
+  width: 100%;
 }
 
 a{
