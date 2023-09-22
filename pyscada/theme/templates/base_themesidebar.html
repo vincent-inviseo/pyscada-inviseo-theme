@@ -7,47 +7,25 @@
     <nav id="sidebar">
         <div class="sidebar-header">
             {% block sidebar_logo %}
-                <h3>LESITE</h3>
-                <strong style="font-size:inherit;">LESITE</strong>
+                {% comment %} On a pas le logo donc on prévoit juste que l'image soit là {% endcomment %}
+                <a href="javascript:;">
+                    <img id="logo-inviseo" src="{% static "./img/logo-inviseo.png" %}"
+                         alt="logo">
+                </a>
             {% endblock %}
             {% block navbar_logo %}{% endblock %}
         </div>
-        <ul class="list-unstyled components navbar-nav">
-            {% block top_menu_left %}{% endblock %}
-            {% block top_menu_left_collapsed %}{% endblock %}
+        <ul class="list-unstyled CTAs navbar-button-list" id="le-fameux-id">
+            <button class="navbar-button" id="dashboard-button">#</button>
+            <button class="navbar-button" id="insights-button">#</button>
+            <button class="navbar-button" id="ordinateur-button">#</button>
+            <button class="navbar-button" id="documents-button">#</button>
         </ul>
-        <ul class="list-unstyled CTAs">
-        </ul>
-        {% block sidebar_sites %}
-            {% include "sidebar_sites.html" %}
-        {% endblock %}
     </nav>
     <!-- Top bar -->
     <nav id="navbar-top"
          class="topbar sidebarActive navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <button type="button" id="sidebarCollapse2" class="sidebarCollapse">
-                <span class="icon-bar"
-                      style="display: block;
-                             width: 22px;
-                             height: 2px;
-                             border-radius: 1px;
-                             background-color: #FFF"></span>
-                <span class="icon-bar"
-                      style="display: block;
-                             width: 22px;
-                             height: 2px;
-                             border-radius: 1px;
-                             background-color: #FFF;
-                             margin-top: 4px"></span>
-                <span class="icon-bar"
-                      style="display: block;
-                             width: 22px;
-                             height: 2px;
-                             border-radius: 1px;
-                             background-color: #FFF;
-                             margin-top: 4px"></span>
-            </button>
             <button type="button"
                     class="navbar-toggle topBarCollapse"
                     data-toggle="collapse"

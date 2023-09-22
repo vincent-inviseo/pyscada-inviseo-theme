@@ -34,7 +34,8 @@
 
   --couleurSubpageBG: #fff;
   --couleurFooterBG: #fff;
-  --font: Roboto;
+  /* https://ektype.in/font-family/baloo/baloo2.html */
+  /* --font: Roboto; */
 }
 
 .panel-body {
@@ -537,6 +538,11 @@ a.article:hover {
   #sidebar .CTAs {
     display: none;
   }
+
+#le-fameux-id{
+  display: flex !important;
+  flex-direction: column !important;
+}
 
   #sidebar .sidebar-header strong {
     display: block;
