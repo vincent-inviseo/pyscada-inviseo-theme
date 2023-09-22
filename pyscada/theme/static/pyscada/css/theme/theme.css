@@ -372,9 +372,6 @@ span {
 
 #sidebar .sidebar-header {
   padding: 20px;
-  padding-left: 0px;
-  padding-right: 0px;
-  background: var(--couleur_sidebarBG);
 }
 
 #sidebar .sidebar-header h3 {
