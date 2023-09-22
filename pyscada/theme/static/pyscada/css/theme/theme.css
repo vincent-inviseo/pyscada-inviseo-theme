@@ -407,6 +407,7 @@ span {
 #sidebar ul li {
   float: none;
   list-style-type: none;
+  margin: 0 10px;
 }
 
 #sidebar ul li a {
@@ -418,6 +419,13 @@ span {
 #sidebar ul li a:hover {
   color: var(--couleur_sidebarFontHover);
   background: var(--couleur_sidebarBGHover);
+  border-radius: 8px;
+}
+
+#sidebar ul li a:active {
+  color: var(--couleur_sidebarFontHover);
+  background: var(--couleur_sidebarBGHover);
+  border-radius: 8px;
 }
 
 #sidebar ul li a i {
