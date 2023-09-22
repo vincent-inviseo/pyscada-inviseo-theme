@@ -47,6 +47,13 @@
 
 }
 
+#logo-inviseo{
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 20px;
+
+}
+
 .panel-body {
   border-style: solid;
   border-width: thin;
@@ -308,6 +315,7 @@ span {
 
 #sidebar {
   min-width: 190px;
+  max-width: 190px;
   /* max-width: 250px; */
   background: var(--couleur_sidebarBG);
   color: var(--couleur_sidebarFont);
