@@ -233,6 +233,8 @@ span {
 
 .chart-container {
   font-family: var(--font, robotoregular);
+  border-radius: 8px;
+  border: unset;
 }
 
 .legend,
