@@ -32,8 +32,8 @@
 
   --couleurfont_p: #000;
 
-  --couleurSubpageBG: #fff;
-  --couleurFooterBG: #fff;
+  --couleurSubpageBG: #f3f2fc;
+  --couleurFooterBG: #f3f2fc;
   /* https://ektype.in/font-family/baloo/baloo2.html */
   /* --font: Roboto; */
 }
@@ -317,6 +317,7 @@ span {
   z-index: 1025;
   height: 100%;
   overflow-y: auto;
+  box-shadow: 12px 0px 15px 0px rgba(0,0,0,0.2);
 }
 
 #sidebar.active {
@@ -476,6 +477,7 @@ a.article:hover {
   padding-top: 106px;
   padding-left: 80px;
   transition: all 0.3s;
+  background-color: #f3f2fc;
 }
 
 #content.sidebarActive,
