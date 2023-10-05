@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+
+
+{% if form.errors %}
+<p>Your username and password didn't match. Please try again.</p>
+{% endif %}
+
+<form class="form-signin" method="post" action="{% url 'login_view' %}">
+{% csrf_token %}
+<h2 class="form-signin-heading">Please sign in</h2>
+<input type="text" class="form-control" placeholder="{{ form.username.label }}" name="username" required="" autofocus="" id="{{ form.username.id_for_label }}">
+<input type="password" class="form-control" placeholder="{{ form.password.label }}" name="password" required="" id="{{ form.password.id_for_label }}">
+<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+<input type="hidden" name="next" value="{{ next }}" />
+</form>
+</div>
+</div>
+{% endblock %}
+{% block script_bottom %}
+        $( document ).ready(function() {
+            // Handler for .ready() called.
+            $(".loadingAnimation").parent().hide();
+            $(".AutoUpdateStatus").parent().parent().hide();
+            $(".ReadAllTask").parent().parent().hide();
+            $(".AutoUpdateButtonParent").hide();
+        });
+{% endblock %}

@@ -28,9 +28,11 @@
   --couleur_dropdownFontHover: #009036;
   --couleur_dropdownFontActive: #009036;
 
+  --main-bg-color: #f3f2fc;
+
   --glyphicon-color: gray;
 
-  --couleur_panelBG: #fffaf0;
+  --couleur_panelBG: #fff;
   --couleur_panelFont: #007ec4;
   --couleur_panelTitle: #007ec4;
 
@@ -47,9 +49,41 @@
 
 }
 
+#logo-container {
+  display: flex;
+  justify-content: center;
+
+  #logo-inviseo-login {
+    width: 200px;
+    height: auto;
+  }
+}
+
 #logo-inviseo{
   width: 120px;
   height: 120px;
+}
+
+.form-signin {
+  max-width: 350px !important;
+  margin: 0 auto !important;
+}
+
+
+
+.form-signin .form-control {
+  border-radius: 8px !important;
+  margin-bottom: 15px;
+}
+
+.form-signin .form-control:hover {
+  border-color: var(--couleur_sidebarBG);
+}
+
+.btn-inviseo {
+  background-color: var(--couleur_sidebarBG);
+  border-radius: 8px;
+  color: white !important;
 }
 
 .AutoUpdateButtonParent{
@@ -87,12 +121,19 @@
 
 }
 
+.panel {
+  border: 1px solid gray;
+  background-color: var(--couleur_panelBG);
+  border-radius: 8px !important;
+  box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.51) !important;
+  -webkit-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.51) !important;
+  -moz-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.51) !important;
+}
+
 
 .panel-body {
-  border-style: solid;
-  border-width: thin;
+  padding: 0;
   background-color: var(--couleur_panelBG);
-  border-color: var(--couleur_navbarBG);
   border-radius: 15px;
 }
 
@@ -183,11 +224,26 @@ h1,
   font-weight: 500;
 }
 
+.panel-inviseo {
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1) !important;
+  border-radius: 8px;
+}
+
+.panel {
+  border: unset;
+}
+
+.panel-inviseo > .panel-heading {
+  color: var(--font-main-color);
+  font-size: 14px;
+
+}
+
 .panel-primary > .panel-heading {
-  background-image: unset;
+  background-image: unset !important;
   color: var(--couleur_panelTitle);
-  background-color: #fff;
-  border-width: 0px;
+  background-color: var(--couleur_panelBG);
+  border: unset;
 }
 
 .panel-primary {
@@ -363,6 +419,7 @@ span {
   height: 100%;
   overflow-y: auto;
   box-shadow: 12px 0px 15px 0px rgba(0,0,0,0.2);
+  padding: 0 15px;
 }
 
 #sidebar.active {
@@ -383,6 +440,7 @@ span {
 
 #sidebar ul li a {
   text-align: left;
+  width: 100%;
 }
 
 #sidebar.active ul li a {
@@ -435,25 +493,26 @@ span {
 
 #sidebar ul.components {
   padding: 20px 0;
-  border-bottom: 1px solid var(--couleur_sidebarFont);
   float: none;
   margin: 0;
 }
 
 #sidebar ul li {
   float: none;
+  width: 100%;
   list-style-type: none;
-  margin: 0 10px;
+  
 }
 
 #sidebar ul li a {
   padding: 10px;
   font-size: 16px;
   display: block;
+  width: 100%;
 }
 
 #sidebar ul li:hover {
-  color: var(--couleur_sidebarFontHover);
+  color: var(--couleur_navbarBGHover);
   background: var(--couleur_sidebarBGHover);
   border-radius: 10px;
   width: 100%;
@@ -467,16 +526,11 @@ a{
   color: var(--couleur_sidebarFontHover);
   background: var(--couleur_sidebarBGHover);
   border-radius: 10px;
+  width: 100%;
 }
 
 #sidebar ul li a i {
   margin-right: 10px;
-}
-
-#sidebar ul li.active > a,
-a[aria-expanded="true"] {
-  color: var(--couleur_sidebarFontActive);
-  background: var(--couleur_sidebarBGActive);
 }
 
 a[data-toggle="collapse"] {
@@ -529,13 +583,14 @@ a.article:hover {
     CONTENT STYLE
 ----------------------------------------------------- */
 #content {
-  transition: all 0.3s;
-  padding-bottom: 0px;
   padding-right: 0px;
-  padding-top: 106px;
   padding-left: 80px;
-  transition: all 0.3s;
-  background-color: #f3f2fc;
+  background-color: var(--main-bg-color);
+  padding-top: 60px;
+}
+
+#wrap {
+  background-color: var(--main-bg-color);
 }
 
 #content.sidebarActive,
@@ -614,6 +669,7 @@ a.article:hover {
   #sidebar ul li a {
     padding: 20px 10px;
     font-size: 0em;
+    width: 100%;
   }
 
   #sidebar ul li a span {

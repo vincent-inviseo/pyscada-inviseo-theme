@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% load i18n static %}
+
+{% block content %}
+<div class="row">
+    {% for view in view_list %}
+        {% if view.visible %}
+        <div class="col-sm-3">
+        <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title"><a href="{% url 'main-view' view.link_title %}" target="{{ link_target }}" >{{ view.title }}</a></h3>
+                </div>
+                <div class="panel-body">
+                {% if view.logo %}
+                <a href="{% url 'main-view' view.link_title %}" class="thumbnail" target="{{ link_target }}" ><img src="{{ view.logo.url }}" alt="{{ view.description }}"  width="100%" ></a>
+                {% else %}
+                <a href="{% url 'main-view' view.link_title %}" class="thumbnail" target="{{ link_target }}" ><p style="min-height: 120px;">{{ view.description }}</p></a>
+                {% endif %}
+            </div>
+           </div>
+        </div>
+        {% endif %}
+        {% if forloop.counter|divisibleby:4 %}
+    </div><div class="row">
+        {% endif %}
+    {% endfor %}
+    </div>
+{% endblock %}
+{% block script_bottom %}
+        $( document ).ready(function() {
+            // Handler for .ready() called.
+           $(".loadingAnimation").parent().hide();
+           $(".AutoUpdateStatus").parent().parent().hide();
+           $(".ReadAllTask").parent().parent().hide();
+           $(".AutoUpdateButtonParent").hide();
+        });
+{% endblock %}

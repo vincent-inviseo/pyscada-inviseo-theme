@@ -1,0 +1,1242 @@
+[
+{
+    "fields": {
+        "B": 0,
+        "R": 0,
+        "name": "auto",
+        "G": 0
+    },
+    "model": "pyscada.color",
+    "pk": 1
+},
+{
+    "fields": {
+        "B": 64,
+        "R": 237,
+        "name": "",
+        "G": 194
+    },
+    "model": "pyscada.color",
+    "pk": 2
+},
+{
+    "fields": {
+        "B": 248,
+        "R": 175,
+        "name": "",
+        "G": 216
+    },
+    "model": "pyscada.color",
+    "pk": 3
+},
+{
+    "fields": {
+        "B": 75,
+        "R": 203,
+        "name": "",
+        "G": 75
+    },
+    "model": "pyscada.color",
+    "pk": 4
+},
+{
+    "fields": {
+        "B": 77,
+        "R": 77,
+        "name": "",
+        "G": 167
+    },
+    "model": "pyscada.color",
+    "pk": 5
+},
+{
+    "fields": {
+        "B": 237,
+        "R": 148,
+        "name": "",
+        "G": 64
+    },
+    "model": "pyscada.color",
+    "pk": 6
+},
+{
+    "fields": {
+        "B": 51,
+        "R": 189,
+        "name": "",
+        "G": 155
+    },
+    "model": "pyscada.color",
+    "pk": 7
+},
+{
+    "fields": {
+        "B": 198,
+        "R": 140,
+        "name": "",
+        "G": 172
+    },
+    "model": "pyscada.color",
+    "pk": 8
+},
+{
+    "fields": {
+        "B": 60,
+        "R": 162,
+        "name": "",
+        "G": 60
+    },
+    "model": "pyscada.color",
+    "pk": 9
+},
+{
+    "fields": {
+        "B": 61,
+        "R": 61,
+        "name": "",
+        "G": 133
+    },
+    "model": "pyscada.color",
+    "pk": 10
+},
+{
+    "fields": {
+        "B": 189,
+        "R": 118,
+        "name": "",
+        "G": 51
+    },
+    "model": "pyscada.color",
+    "pk": 11
+},
+{
+    "fields": {
+        "B": 76,
+        "R": 255,
+        "name": "",
+        "G": 232
+    },
+    "model": "pyscada.color",
+    "pk": 12
+},
+{
+    "fields": {
+        "B": 255,
+        "R": 210,
+        "name": "",
+        "G": 255
+    },
+    "model": "pyscada.color",
+    "pk": 13
+},
+{
+    "fields": {
+        "B": 90,
+        "R": 243,
+        "name": "",
+        "G": 90
+    },
+    "model": "pyscada.color",
+    "pk": 14
+},
+{
+    "fields": {
+        "B": 92,
+        "R": 92,
+        "name": "",
+        "G": 200
+    },
+    "model": "pyscada.color",
+    "pk": 15
+},
+{
+    "fields": {
+        "B": 255,
+        "R": 177,
+        "name": "",
+        "G": 76
+    },
+    "model": "pyscada.color",
+    "pk": 16
+},
+{
+    "fields": {
+        "B": 38,
+        "R": 142,
+        "name": "",
+        "G": 116
+    },
+    "model": "pyscada.color",
+    "pk": 17
+},
+{
+    "fields": {
+        "B": 148,
+        "R": 105,
+        "name": "",
+        "G": 129
+    },
+    "model": "pyscada.color",
+    "pk": 18
+},
+{
+    "fields": {
+        "B": 45,
+        "R": 121,
+        "name": "",
+        "G": 45
+    },
+    "model": "pyscada.color",
+    "pk": 19
+},
+{
+    "fields": {
+        "B": 46,
+        "R": 46,
+        "name": "",
+        "G": 100
+    },
+    "model": "pyscada.color",
+    "pk": 20
+},
+{
+    "fields": {
+        "B": 142,
+        "R": 88,
+        "name": "",
+        "G": 38
+    },
+    "model": "pyscada.color",
+    "pk": 21
+},
+{
+    "fields": {
+        "B": 89,
+        "R": 255,
+        "name": "",
+        "G": 255
+    },
+    "model": "pyscada.color",
+    "pk": 22
+},
+{
+    "fields": {
+        "B": 255,
+        "R": 244,
+        "name": "",
+        "G": 255
+    },
+    "model": "pyscada.color",
+    "pk": 23
+},
+{
+    "fields": {
+        "B": 105,
+        "R": 255,
+        "name": "",
+        "G": 105
+    },
+    "model": "pyscada.color",
+    "pk": 24
+},
+{
+    "fields": {
+        "B": 107,
+        "R": 107,
+        "name": "",
+        "G": 233
+    },
+    "model": "pyscada.color",
+    "pk": 25
+},
+{
+    "fields": {
+        "B": 255,
+        "R": 207,
+        "name": "",
+        "G": 89
+    },
+    "model": "pyscada.color",
+    "pk": 26
+},
+{
+    "fields": {
+        "B": 25,
+        "R": 94,
+        "name": "",
+        "G": 77
+    },
+    "model": "pyscada.color",
+    "pk": 27
+},
+{
+    "fields": {
+        "B": 99,
+        "R": 69,
+        "name": "",
+        "G": 86
+    },
+    "model": "pyscada.color",
+    "pk": 28
+},
+{
+    "fields": {
+        "B": 29,
+        "R": 81,
+        "name": "",
+        "G": 29
+    },
+    "model": "pyscada.color",
+    "pk": 29
+},
+{
+    "fields": {
+        "B": 30,
+        "R": 30,
+        "name": "",
+        "G": 66
+    },
+    "model": "pyscada.color",
+    "pk": 30
+},
+{
+    "fields": {
+        "B": 94,
+        "R": 59,
+        "name": "",
+        "G": 25
+    },
+    "model": "pyscada.color",
+    "pk": 31
+},
+{
+    "fields": {
+        "B": 102,
+        "R": 255,
+        "name": "",
+        "G": 255
+    },
+    "model": "pyscada.color",
+    "pk": 32
+},
+{
+    "fields": {
+        "B": 255,
+        "R": 255,
+        "name": "",
+        "G": 255
+    },
+    "model": "pyscada.color",
+    "pk": 33
+},
+{
+    "fields": {
+        "B": 120,
+        "R": 255,
+        "name": "",
+        "G": 120
+    },
+    "model": "pyscada.color",
+    "pk": 34
+},
+{
+    "fields": {
+        "B": 123,
+        "R": 123,
+        "name": "",
+        "G": 255
+    },
+    "model": "pyscada.color",
+    "pk": 35
+},
+{
+    "fields": {
+        "B": 255,
+        "R": 236,
+        "name": "",
+        "G": 102
+    },
+    "model": "pyscada.color",
+    "pk": 36
+},
+{
+    "fields": {
+        "B": 64,
+        "R": 237,
+        "name": "",
+        "G": 194
+    },
+    "model": "pyscada.color",
+    "pk": 37
+},
+{
+    "fields": {
+        "B": 248,
+        "R": 175,
+        "name": "",
+        "G": 216
+    },
+    "model": "pyscada.color",
+    "pk": 38
+},
+{
+    "fields": {
+        "B": 75,
+        "R": 203,
+        "name": "",
+        "G": 75
+    },
+    "model": "pyscada.color",
+    "pk": 39
+},
+{
+    "fields": {
+        "B": 77,
+        "R": 77,
+        "name": "",
+        "G": 167
+    },
+    "model": "pyscada.color",
+    "pk": 40
+},
+{
+    "fields": {
+        "B": 237,
+        "R": 148,
+        "name": "",
+        "G": 64
+    },
+    "model": "pyscada.color",
+    "pk": 41
+},
+{
+    "fields": {
+        "B": 51,
+        "R": 189,
+        "name": "",
+        "G": 155
+    },
+    "model": "pyscada.color",
+    "pk": 42
+},
+{
+    "fields": {
+        "B": 198,
+        "R": 140,
+        "name": "",
+        "G": 172
+    },
+    "model": "pyscada.color",
+    "pk": 43
+},
+{
+    "fields": {
+        "B": 60,
+        "R": 162,
+        "name": "",
+        "G": 60
+    },
+    "model": "pyscada.color",
+    "pk": 44
+},
+{
+    "fields": {
+        "B": 61,
+        "R": 61,
+        "name": "",
+        "G": 133
+    },
+    "model": "pyscada.color",
+    "pk": 45
+},
+{
+    "fields": {
+        "B": 189,
+        "R": 118,
+        "name": "",
+        "G": 51
+    },
+    "model": "pyscada.color",
+    "pk": 46
+},
+{
+    "fields": {
+        "B": 76,
+        "R": 255,
+        "name": "",
+        "G": 232
+    },
+    "model": "pyscada.color",
+    "pk": 47
+},
+{
+    "fields": {
+        "B": 255,
+        "R": 210,
+        "name": "",
+        "G": 255
+    },
+    "model": "pyscada.color",
+    "pk": 48
+},
+{
+    "fields": {
+        "B": 90,
+        "R": 243,
+        "name": "",
+        "G": 90
+    },
+    "model": "pyscada.color",
+    "pk": 49
+},
+{
+    "fields": {
+        "B": 92,
+        "R": 92,
+        "name": "",
+        "G": 200
+    },
+    "model": "pyscada.color",
+    "pk": 50
+},
+{
+    "fields": {
+        "B": 255,
+        "R": 177,
+        "name": "",
+        "G": 76
+    },
+    "model": "pyscada.color",
+    "pk": 51
+},
+{
+    "fields": {
+        "B": 143,
+        "R": 0,
+        "name": "",
+        "G": 0
+    },
+    "model": "pyscada.color",
+    "pk": 52
+},
+{
+    "fields": {
+        "B": 159,
+        "R": 0,
+        "name": "",
+        "G": 0
+    },
+    "model": "pyscada.color",
+    "pk": 53
+},
+{
+    "fields": {
+        "B": 175,
+        "R": 0,
+        "name": "",
+        "G": 0
+    },
+    "model": "pyscada.color",
+    "pk": 54
+},
+{
+    "fields": {
+        "B": 191,
+        "R": 0,
+        "name": "",
+        "G": 0
+    },
+    "model": "pyscada.color",
+    "pk": 55
+},
+{
+    "fields": {
+        "B": 207,
+        "R": 0,
+        "name": "",
+        "G": 0
+    },
+    "model": "pyscada.color",
+    "pk": 56
+},
+{
+    "fields": {
+        "B": 223,
+        "R": 0,
+        "name": "",
+        "G": 0
+    },
+    "model": "pyscada.color",
+    "pk": 57
+},
+{
+    "fields": {
+        "B": 239,
+        "R": 0,
+        "name": "",
+        "G": 0
+    },
+    "model": "pyscada.color",
+    "pk": 58
+},
+{
+    "fields": {
+        "B": 255,
+        "R": 0,
+        "name": "",
+        "G": 0
+    },
+    "model": "pyscada.color",
+    "pk": 59
+},
+{
+    "fields": {
+        "B": 255,
+        "R": 0,
+        "name": "",
+        "G": 16
+    },
+    "model": "pyscada.color",
+    "pk": 60
+},
+{
+    "fields": {
+        "B": 255,
+        "R": 0,
+        "name": "",
+        "G": 32
+    },
+    "model": "pyscada.color",
+    "pk": 61
+},
+{
+    "fields": {
+        "B": 255,
+        "R": 0,
+        "name": "",
+        "G": 48
+    },
+    "model": "pyscada.color",
+    "pk": 62
+},
+{
+    "fields": {
+        "B": 255,
+        "R": 0,
+        "name": "",
+        "G": 64
+    },
+    "model": "pyscada.color",
+    "pk": 63
+},
+{
+    "fields": {
+        "B": 255,
+        "R": 0,
+        "name": "",
+        "G": 80
+    },
+    "model": "pyscada.color",
+    "pk": 64
+},
+{
+    "fields": {
+        "B": 255,
+        "R": 0,
+        "name": "",
+        "G": 96
+    },
+    "model": "pyscada.color",
+    "pk": 65
+},
+{
+    "fields": {
+        "B": 255,
+        "R": 0,
+        "name": "",
+        "G": 112
+    },
+    "model": "pyscada.color",
+    "pk": 66
+},
+{
+    "fields": {
+        "B": 255,
+        "R": 0,
+        "name": "",
+        "G": 128
+    },
+    "model": "pyscada.color",
+    "pk": 67
+},
+{
+    "fields": {
+        "B": 255,
+        "R": 0,
+        "name": "",
+        "G": 143
+    },
+    "model": "pyscada.color",
+    "pk": 68
+},
+{
+    "fields": {
+        "B": 255,
+        "R": 0,
+        "name": "",
+        "G": 159
+    },
+    "model": "pyscada.color",
+    "pk": 69
+},
+{
+    "fields": {
+        "B": 255,
+        "R": 0,
+        "name": "",
+        "G": 175
+    },
+    "model": "pyscada.color",
+    "pk": 70
+},
+{
+    "fields": {
+        "B": 255,
+        "R": 0,
+        "name": "",
+        "G": 191
+    },
+    "model": "pyscada.color",
+    "pk": 71
+},
+{
+    "fields": {
+        "B": 255,
+        "R": 0,
+        "name": "",
+        "G": 207
+    },
+    "model": "pyscada.color",
+    "pk": 72
+},
+{
+    "fields": {
+        "B": 255,
+        "R": 0,
+        "name": "",
+        "G": 223
+    },
+    "model": "pyscada.color",
+    "pk": 73
+},
+{
+    "fields": {
+        "B": 255,
+        "R": 0,
+        "name": "",
+        "G": 239
+    },
+    "model": "pyscada.color",
+    "pk": 74
+},
+{
+    "fields": {
+        "B": 255,
+        "R": 0,
+        "name": "",
+        "G": 255
+    },
+    "model": "pyscada.color",
+    "pk": 75
+},
+{
+    "fields": {
+        "B": 239,
+        "R": 16,
+        "name": "",
+        "G": 255
+    },
+    "model": "pyscada.color",
+    "pk": 76
+},
+{
+    "fields": {
+        "B": 223,
+        "R": 32,
+        "name": "",
+        "G": 255
+    },
+    "model": "pyscada.color",
+    "pk": 77
+},
+{
+    "fields": {
+        "B": 207,
+        "R": 48,
+        "name": "",
+        "G": 255
+    },
+    "model": "pyscada.color",
+    "pk": 78
+},
+{
+    "fields": {
+        "B": 191,
+        "R": 64,
+        "name": "",
+        "G": 255
+    },
+    "model": "pyscada.color",
+    "pk": 79
+},
+{
+    "fields": {
+        "B": 175,
+        "R": 80,
+        "name": "",
+        "G": 255
+    },
+    "model": "pyscada.color",
+    "pk": 80
+},
+{
+    "fields": {
+        "B": 159,
+        "R": 96,
+        "name": "",
+        "G": 255
+    },
+    "model": "pyscada.color",
+    "pk": 81
+},
+{
+    "fields": {
+        "B": 143,
+        "R": 112,
+        "name": "",
+        "G": 255
+    },
+    "model": "pyscada.color",
+    "pk": 82
+},
+{
+    "fields": {
+        "B": 128,
+        "R": 128,
+        "name": "",
+        "G": 255
+    },
+    "model": "pyscada.color",
+    "pk": 83
+},
+{
+    "fields": {
+        "B": 112,
+        "R": 143,
+        "name": "",
+        "G": 255
+    },
+    "model": "pyscada.color",
+    "pk": 84
+},
+{
+    "fields": {
+        "B": 96,
+        "R": 159,
+        "name": "",
+        "G": 255
+    },
+    "model": "pyscada.color",
+    "pk": 85
+},
+{
+    "fields": {
+        "B": 80,
+        "R": 175,
+        "name": "",
+        "G": 255
+    },
+    "model": "pyscada.color",
+    "pk": 86
+},
+{
+    "fields": {
+        "B": 64,
+        "R": 191,
+        "name": "",
+        "G": 255
+    },
+    "model": "pyscada.color",
+    "pk": 87
+},
+{
+    "fields": {
+        "B": 48,
+        "R": 207,
+        "name": "",
+        "G": 255
+    },
+    "model": "pyscada.color",
+    "pk": 88
+},
+{
+    "fields": {
+        "B": 32,
+        "R": 223,
+        "name": "",
+        "G": 255
+    },
+    "model": "pyscada.color",
+    "pk": 89
+},
+{
+    "fields": {
+        "B": 16,
+        "R": 239,
+        "name": "",
+        "G": 255
+    },
+    "model": "pyscada.color",
+    "pk": 90
+},
+{
+    "fields": {
+        "B": 0,
+        "R": 255,
+        "name": "",
+        "G": 255
+    },
+    "model": "pyscada.color",
+    "pk": 91
+},
+{
+    "fields": {
+        "B": 0,
+        "R": 255,
+        "name": "",
+        "G": 239
+    },
+    "model": "pyscada.color",
+    "pk": 92
+},
+{
+    "fields": {
+        "B": 0,
+        "R": 255,
+        "name": "",
+        "G": 223
+    },
+    "model": "pyscada.color",
+    "pk": 93
+},
+{
+    "fields": {
+        "B": 0,
+        "R": 255,
+        "name": "",
+        "G": 207
+    },
+    "model": "pyscada.color",
+    "pk": 94
+},
+{
+    "fields": {
+        "B": 0,
+        "R": 255,
+        "name": "",
+        "G": 191
+    },
+    "model": "pyscada.color",
+    "pk": 95
+},
+{
+    "fields": {
+        "B": 0,
+        "R": 255,
+        "name": "",
+        "G": 175
+    },
+    "model": "pyscada.color",
+    "pk": 96
+},
+{
+    "fields": {
+        "B": 0,
+        "R": 255,
+        "name": "",
+        "G": 159
+    },
+    "model": "pyscada.color",
+    "pk": 97
+},
+{
+    "fields": {
+        "B": 0,
+        "R": 255,
+        "name": "",
+        "G": 143
+    },
+    "model": "pyscada.color",
+    "pk": 98
+},
+{
+    "fields": {
+        "B": 0,
+        "R": 255,
+        "name": "",
+        "G": 128
+    },
+    "model": "pyscada.color",
+    "pk": 99
+},
+{
+    "fields": {
+        "B": 0,
+        "R": 255,
+        "name": "",
+        "G": 112
+    },
+    "model": "pyscada.color",
+    "pk": 100
+},
+{
+    "fields": {
+        "B": 0,
+        "R": 255,
+        "name": "",
+        "G": 96
+    },
+    "model": "pyscada.color",
+    "pk": 101
+},
+{
+    "fields": {
+        "B": 0,
+        "R": 255,
+        "name": "",
+        "G": 80
+    },
+    "model": "pyscada.color",
+    "pk": 102
+},
+{
+    "fields": {
+        "B": 0,
+        "R": 255,
+        "name": "",
+        "G": 64
+    },
+    "model": "pyscada.color",
+    "pk": 103
+},
+{
+    "fields": {
+        "B": 0,
+        "R": 255,
+        "name": "",
+        "G": 48
+    },
+    "model": "pyscada.color",
+    "pk": 104
+},
+{
+    "fields": {
+        "B": 0,
+        "R": 255,
+        "name": "",
+        "G": 32
+    },
+    "model": "pyscada.color",
+    "pk": 105
+},
+{
+    "fields": {
+        "B": 0,
+        "R": 255,
+        "name": "",
+        "G": 16
+    },
+    "model": "pyscada.color",
+    "pk": 106
+},
+{
+    "fields": {
+        "B": 0,
+        "R": 255,
+        "name": "",
+        "G": 0
+    },
+    "model": "pyscada.color",
+    "pk": 107
+},
+{
+    "fields": {
+        "B": 0,
+        "R": 239,
+        "name": "",
+        "G": 0
+    },
+    "model": "pyscada.color",
+    "pk": 108
+},
+{
+    "fields": {
+        "B": 0,
+        "R": 223,
+        "name": "",
+        "G": 0
+    },
+    "model": "pyscada.color",
+    "pk": 109
+},
+{
+    "fields": {
+        "B": 0,
+        "R": 207,
+        "name": "",
+        "G": 0
+    },
+    "model": "pyscada.color",
+    "pk": 110
+},
+{
+    "fields": {
+        "B": 0,
+        "R": 191,
+        "name": "",
+        "G": 0
+    },
+    "model": "pyscada.color",
+    "pk": 111
+},
+{
+    "fields": {
+        "B": 0,
+        "R": 175,
+        "name": "",
+        "G": 0
+    },
+    "model": "pyscada.color",
+    "pk": 112
+},
+{
+    "fields": {
+        "B": 0,
+        "R": 159,
+        "name": "",
+        "G": 0
+    },
+    "model": "pyscada.color",
+    "pk": 113
+},
+{
+    "fields": {
+        "B": 0,
+        "R": 143,
+        "name": "",
+        "G": 0
+    },
+    "model": "pyscada.color",
+    "pk": 114
+},
+{
+    "fields": {
+        "B": 0,
+        "R": 128,
+        "name": "",
+        "G": 0
+    },
+    "model": "pyscada.color",
+    "pk": 115
+},
+{
+    "fields": {
+        "B": 255,
+        "R": 0,
+        "name": "",
+        "G": 0
+    },
+    "model": "pyscada.color",
+    "pk": 116
+},
+{
+    "fields": {
+        "B": 0,
+        "R": 0,
+        "name": "",
+        "G": 128
+    },
+    "model": "pyscada.color",
+    "pk": 117
+},
+{
+    "fields": {
+        "B": 0,
+        "R": 255,
+        "name": "",
+        "G": 0
+    },
+    "model": "pyscada.color",
+    "pk": 118
+},
+{
+    "fields": {
+        "B": 191,
+        "R": 0,
+        "name": "",
+        "G": 191
+    },
+    "model": "pyscada.color",
+    "pk": 119
+},
+{
+    "fields": {
+        "B": 191,
+        "R": 191,
+        "name": "",
+        "G": 0
+    },
+    "model": "pyscada.color",
+    "pk": 120
+},
+{
+    "fields": {
+        "B": 0,
+        "R": 191,
+        "name": "",
+        "G": 191
+    },
+    "model": "pyscada.color",
+    "pk": 121
+},
+{
+    "fields": {
+        "B": 64,
+        "R": 64,
+        "name": "",
+        "G": 64
+    },
+    "model": "pyscada.color",
+    "pk": 122
+},
+{
+    "fields": {
+        "B": 230,
+        "R": 251,
+        "name": "pink",
+        "G": 101
+    },
+    "model": "pyscada.color",
+    "pk": 123
+},
+{
+    "fields": {
+        "B": 153,
+        "R": 255,
+        "name": "hell gelb",
+        "G": 255
+    },
+    "model": "pyscada.color",
+    "pk": 124
+}
+]
