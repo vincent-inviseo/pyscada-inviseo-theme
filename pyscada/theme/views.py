@@ -56,6 +56,8 @@ def unauthenticated_redirect(func):
 
 @unauthenticated_redirect
 def view_overview(request):
+    page_list = Page.objects.all()
+    
     if GroupDisplayPermission.objects.count() == 0:
         view_list = View.objects.all()
     else:
@@ -66,6 +68,7 @@ def view_overview(request):
     c = {
         "user": request.user,
         "view_list": view_list,
+        "page_list": page_list,
         "version_string": core_version,
         "link_target": settings.LINK_TARGET
         if hasattr(settings, "LINK_TARGET")

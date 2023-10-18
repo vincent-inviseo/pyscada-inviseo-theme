@@ -3,9 +3,11 @@
     {% include "sidebar_theme_css.html" %}
 {% endblock %}
 {% load i18n static %}
-
+{% block navbar %}
+{% include "sidebar_overview.html" %}  
+{% endblock %}
 {% block content %}
-<div class="row">
+<div class="row view_overview">
     {% for view in view_list %}
         {% if view.visible %}
         <div class="col-sm-3">

@@ -69,7 +69,9 @@
   margin: 0 auto !important;
 }
 
-
+.view_overview {
+  padding-left: 250px !important
+}
 
 .form-signin .form-control {
   border-radius: 8px !important;
