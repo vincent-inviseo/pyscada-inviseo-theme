@@ -59,6 +59,25 @@
   }
 }
 
+
+.btn-circle-add {
+  position: absolute !important;
+  bottom: 0;
+  right: 80px;
+  top: unset !important;
+  display:block;
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  color: white !important;
+  background-color: var(--couleur_sidebarBG);
+  text-align: center;
+  padding: 6px 0;
+  font-size: 25px;
+  line-height: 2 !important;
+  border-radius: 50%;
+}
+
 #logo-inviseo{
   width: 120px;
   height: 120px;
@@ -145,6 +164,7 @@
 
 .container {
   padding: 0;
+  position: relative;
 }
 
 .topbar {
@@ -589,6 +609,7 @@ a.article:hover {
   padding-left: 80px;
   background-color: var(--main-bg-color);
   padding-top: 60px;
+  position: relative !important;
 }
 
 #wrap {
