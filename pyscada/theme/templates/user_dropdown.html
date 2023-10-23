@@ -11,7 +11,7 @@
         <ul class="dropdown-menu" style="min-width: 0px;">
             {% if user.is_staff %}
                 <li>
-                    <a href="{% url 'pyscada_admin:index' %}" target="{{ link_target }}">Admin</a>
+                    <a href="{% url 'pyscada_admin:index' %}" target="{{ link_target }}">Administration</a>
                 </li>
             {% endif %}
             <li class="divider"></li>
@@ -30,11 +30,11 @@
             </li>
             <li class="refresh-rate-divider divider hidden"></li>
             <li>
-                <a href="/accounts/password_change" target="{{ link_target }}">change password</a>
+                <a href="/accounts/password_change" target="{{ link_target }}">Changer mot de passe</a>
             </li>
             <li class="divider"></li>
             <li>
-                <a href="/accounts/logout">logout</a>
+                <a href="/accounts/logout">Déconnaxion</a>
             </li>
         </ul>
     </li>

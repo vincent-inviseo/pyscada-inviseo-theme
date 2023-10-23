@@ -1,4 +1,4 @@
-@import url('https://ektype.in/font-family/baloo/baloo2.html');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
 
 :root {
   --couleur_sidebarBG: #4C0BC6;
@@ -49,6 +49,10 @@
 
 }
 
+body {
+  font-family: var(--font);
+}
+
 #logo-container {
   display: flex;
   justify-content: center;
@@ -67,8 +71,8 @@
   top: unset !important;
   display:block;
   height: 65px;
+  cursor: pointer;
   width: 65px;
-  border-radius: 50%;
   color: white !important;
   background-color: var(--couleur_sidebarBG);
   text-align: center;
@@ -614,6 +618,7 @@ a.article:hover {
 
 #wrap {
   background-color: var(--main-bg-color);
+  overflow: hidden;
 }
 
 #content.sidebarActive,
