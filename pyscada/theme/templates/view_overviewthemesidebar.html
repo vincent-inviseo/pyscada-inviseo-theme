@@ -8,11 +8,11 @@
 {% endblock %}
 {% block content %}
 <div class="row view_overview">
-    <div class="btn-circle-add glyphicon glyphicon-plus"></div>
+    <div class="btn-circle-add glyphicon glyphicon-plus zoom"></div>
     {% for view in view_list %}
         {% if view.visible %}
         <div class="col-sm-3">
-        <div class="panel panel-inviseo">
+        <div class="panel panel-inviseo zoom">
                 <div class="panel-heading">
                     <h3 class="panel-title"><a href="{% url 'main-view' view.link_title %}" target="{{ link_target }}" >{{ view.title }}</a></h3>
                 </div>
