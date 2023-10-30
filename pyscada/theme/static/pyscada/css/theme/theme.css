@@ -86,6 +86,20 @@ body {
   transform: scale(1.1);
 }
 
+.chat-container {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  background-color: var(--main-bg-color);
+  overflow: hidden;
+
+  #robot-chat {
+    position: absolute;
+    z-index: 2;
+    cursor: pointer;
+  }
+}
+
 .zoom {
   transition: transform .5s;
 }
