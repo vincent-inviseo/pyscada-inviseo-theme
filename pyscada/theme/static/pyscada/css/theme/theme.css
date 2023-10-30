@@ -94,8 +94,6 @@ body {
   overflow: hidden;
 
   #robot-chat {
-    position: absolute;
-    z-index: 2;
     cursor: pointer;
   }
 }
