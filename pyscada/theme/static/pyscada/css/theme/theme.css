@@ -82,6 +82,10 @@ body {
   border-radius: 50%;
 }
 
+.hide-pie-legend .legendTitle, .hide-pie-legend .legend{
+  display: none;
+}
+
 .zoom:hover {
   transform: scale(1.1);
 }
@@ -131,21 +135,6 @@ body {
   background-color: var(--couleur_sidebarBG);
   border-radius: 8px;
   color: white !important;
-}
-
-.AutoUpdateButtonParent{
-  /* visibility: hidden !important; */
-  display: none !important;
-}
-
-.ReadAllTask{
-  /* visibility: hidden !important; */
-  display: none !important;
-}
-
-.AutoUpdateStatus{
-  /* visibility: hidden !important; */
-  display: none !important;
 }
 
 .container-fluid{
