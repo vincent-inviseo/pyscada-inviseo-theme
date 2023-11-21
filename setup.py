@@ -25,7 +25,7 @@ setup(
     name="pyscada-" + pyscada_app.__app_name__.lower(),
     version=pyscada_app.__version__,
     description=pyscada_app.__description__,
-    long_description=open(os.path.join(os.path.dirname(__file__), "README.rst")).read(),
+    long_description=open(os.path.join(os.path.dirname(__file__), "README.md")).read(),
     url="http://www.github.com/pyscada/PyScada",
     license="AGPLv3",
     platforms=["OS Independent"],

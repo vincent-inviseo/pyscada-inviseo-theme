@@ -460,6 +460,7 @@ def view(request, link_title):
         ],
         "visible_form_list": visible_objects_lists["visible_form_list"],
         "view_title": v.title,
+        "view_link_title": link_title,
         "view_show_timeline": v.show_timeline,
         "version_string": core_version,
         "link_target": settings.LINK_TARGET
