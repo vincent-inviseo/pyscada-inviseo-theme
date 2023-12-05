@@ -22,7 +22,6 @@ from pyscada.hmi.models import Page
 from pyscada.hmi.models import SlidingPanelMenu
 from pyscada.utils import gen_hiddenConfigHtml, get_group_display_permission_list
 
-from django.conf import settings
 from django.template.response import TemplateResponse
 from django.http import HttpResponse
 from django.template.loader import get_template
