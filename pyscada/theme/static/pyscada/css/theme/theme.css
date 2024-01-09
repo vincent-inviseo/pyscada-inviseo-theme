@@ -559,7 +559,7 @@ a{
   border-radius: 10px;
 }
 
-#sidebar ul li a:active {
+#sidebar ul li a.active {
   color: var(--couleur_sidebarFontHover);
   background: var(--couleur_sidebarBGHover);
   border-radius: 10px;

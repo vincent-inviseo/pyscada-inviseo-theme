@@ -15,7 +15,7 @@
             {% block top_menu_left %}
                 {% for page in page_list %}
                     <li>
-                        <a href="#{{ page.link_title }}" class="hidden-xs">{{ page.title|safe }}</a>
+                        <a href="#{{ page.link_title }}" onclick="changeActiveLink(this)" class="hidden-xs">{{ page.title|safe }}</a>
                     </li>
                 {% endfor %}
             {% endblock %}
