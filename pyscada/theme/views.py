@@ -417,6 +417,10 @@ def view(request, link_title):
         {"src": STATIC_URL + "pyscada/js/pyscada/pyscada_v0-7-0rc14.js"}
     )
 
+    javascript_files_list.append(
+        {"src": STATIC_URL + "pyscada/js/theme/inviseo-theme.js"}
+    )
+
     # Generate css files list
     css_files_list.append(
         {"src": STATIC_URL + "pyscada/css/daterangepicker/daterangepicker.css"}
