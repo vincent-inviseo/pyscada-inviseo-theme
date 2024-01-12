@@ -170,11 +170,7 @@ body {
 .panel-body {
   padding: 0;
   background-color: var(--couleur_panelBG);
-  border-radius: 15px;
-}
-
-.widget .panel-body {
-  border-style: solid;
+  border-radius: 5px;
 }
 
 .container {
@@ -351,6 +347,10 @@ span {
   font-weight: 500;
 }
 
+.widget .panel-body {
+  border-style: unset;
+}
+
 .control-panel,
 .input-group {
   float: none;
@@ -391,14 +391,10 @@ span {
 }
 
 .control-item {
-  background-color: var(--couleur_panelTitle);
-  color: var(--couleur_panelBG);
-  font-size: 12pt;
-  font-weight: 600;
-}
-
-.control-panel .input-group-addon {
-  border-radius: 15px;
+  /* background-color: var(--couleur_panelTitle); */
+  color: var(--couleurfont_p);
+  font-size: 14px;
+  font-weight: 700;
 }
 
 .control-panel .input-group-addon.input-group-addon-label {
