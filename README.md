@@ -1,8 +1,5 @@
 # pyscada-inviseo-theme
 
-#
-# pyscada-inviseo-theme
-
 Le plugin PyScada `pyscada-inviseo-theme` est le thème pour le système SCADA Open Source `PyScada` développé par la société `Inviseo`.
 
 ## Installation
