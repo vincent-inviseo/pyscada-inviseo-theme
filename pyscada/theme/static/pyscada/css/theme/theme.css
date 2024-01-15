@@ -393,7 +393,7 @@ span {
 .control-item {
   /* background-color: var(--couleur_panelTitle); */
   color: var(--couleurfont_p);
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 700;
 }
 
