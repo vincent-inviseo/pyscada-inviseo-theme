@@ -379,12 +379,7 @@ span {
 ----------------------------------------------------- */
 
 .input-group-addon {
-  border-bottom-width: 1px;
-  border-top-width: 0px;
-  border-radius: 15px;
-  border-left-width: 0px;
-  border-right-width: 0px;
-  border-color: var(--couleur_panelTitle);
+  border: unset;
   color: var(--couleur_panelTitle);
   background-color: #fff;
   font-size: 12pt;
