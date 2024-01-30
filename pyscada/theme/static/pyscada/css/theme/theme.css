@@ -53,6 +53,11 @@ body {
   font-family: var(--font);
 }
 
+.no-border-no-bg {
+  border: none;
+  background-color: unset;
+}
+
 #logo-container {
   display: flex;
   justify-content: center;
@@ -379,7 +384,7 @@ span {
 ----------------------------------------------------- */
 
 .input-group-addon {
-  border: unset;
+  border: none !important;
   color: var(--couleur_panelTitle);
   background-color: #fff;
   font-size: 12pt;
