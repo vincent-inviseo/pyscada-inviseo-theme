@@ -53,11 +53,6 @@ body {
   font-family: var(--font);
 }
 
-.no-border-no-bg {
-  border: none;
-  background-color: unset;
-}
-
 #logo-container {
   display: flex;
   justify-content: center;
